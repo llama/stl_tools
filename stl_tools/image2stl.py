@@ -7,7 +7,7 @@ from scipy.ndimage import gaussian_filter
 
 
 _float_args = ["scale", "mask_val", "max_width", "max_depth", "max_height"]
-_bool_args = ["ascii", "calc_normals"]
+_bool_args = ["ascii", "calc_normals", "solid"]
 
 
 def image2stl():
